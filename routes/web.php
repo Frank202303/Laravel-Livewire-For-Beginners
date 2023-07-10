@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\Calculator;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// error:
+// View [layouts.app] not found.
+// 1. in resources/views:   must be: layouts
+// 2. AppLayout.php: must be  return view('layouts.app');
+//  direct use Component:--------- Calculator::class
+Route::get('/calculator', Calculator::class,
+);
