@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/counter', function () {
+    // this one do not need name??
     return view('welcome');
 });
 
@@ -25,4 +26,4 @@ Route::get('/', function () {
 // 2. AppLayout.php: must be  return view('layouts.app');
 //  direct use Component:--------- Calculator::class
 Route::get('/calculator', Calculator::class,
-);
+)->name('calculator');
