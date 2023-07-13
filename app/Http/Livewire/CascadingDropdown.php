@@ -27,6 +27,8 @@ class CascadingDropdown extends Component
 
     public function changeContinent()
     {
+        ///give 1 second to loading
+        sleep(1);
         if( $this->selectedContinent!='-1'){
             // Query in Country
             // Query in Country table
