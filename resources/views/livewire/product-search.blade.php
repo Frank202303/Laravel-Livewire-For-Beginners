@@ -11,7 +11,7 @@
                 <th class="py-2 px-3 bg-gray-100  border-b-2 text-left"> ID </th>
                 <th class="py-2 px-3 bg-gray-100  border-b-2 text-left"> Image </th>
                 <th class="py-2 px-3 bg-gray-100  border-b-2 text-left"> Title </th>
-                <th class="py-2 px-3 bg-gray-100  border-b-2 text-left"> Description </th>
+                <th class="py-2 px-3 bg-gray-100  border-b-2 text-left"> Price </th>
             </tr>
         </thead>
         <tbody>  
