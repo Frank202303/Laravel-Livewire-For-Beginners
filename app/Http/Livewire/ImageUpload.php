@@ -42,5 +42,7 @@ class ImageUpload extends Component
         }
         /// $this->image->storeAS('public', $this->image->getClientOriginalName());
 
+        $this->image=[];
+
     }
 }
